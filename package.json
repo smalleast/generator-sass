@@ -1,6 +1,6 @@
 {
   "name": "generators-sass",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Webkit sass generator mixins.",
   "homepage": "https://github.com/smalleast/generators-sass",
   "author": {
