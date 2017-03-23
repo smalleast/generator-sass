@@ -1,5 +1,5 @@
 /*line Start*/
-@mixin generator-line($inList,$inColor:#ccc,$inPrefix:'.line-') {
+@mixin generator-line($inList,$inColor:#ddd,$inPrefix:'.line-') {
   #{$inPrefix} {
     @each $i in $inList {
       &#{$i} {
