@@ -1,8 +1,8 @@
 /*line Start*/
-@mixin generator-line($inList,$inColor:ddd,$inPrefix:'.line-') {
+@mixin generator-line($inList,$inColor:#ddd,$inPrefix:'.line-') {
   #{$inPrefix} {
     @each $i in $inList {
-      &#{$i}#{'-'$inColor} {
+      &#{$i} {
         height: #{$i}px;
         background-color: $inColor;
         @extend .blank;
@@ -10,5 +10,4 @@
     }
   }
 }
-
 /*line End*/
