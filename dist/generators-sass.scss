@@ -133,7 +133,7 @@
 @mixin generator-line($inList,$inColor:#ddd,$inPrefix:'.line-') {
   #{$inPrefix} {
     @each $i in $inList {
-      &#{$i} {
+      &#{$i}#{$inColor} {
         height: #{$i}px;
         background-color: $inColor;
         @extend .blank;
@@ -141,6 +141,7 @@
     }
   }
 }
+
 /*line End*/
 
 /*margin Start*/
