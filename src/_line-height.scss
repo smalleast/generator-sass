@@ -3,7 +3,7 @@
   #{$inPrefix} {
     @each $i in $inList {
       &#{$i} {
-        line-height: #{$i}px;
+        line-height: #{$i/50}rem;
       }
     }
   }
@@ -13,8 +13,8 @@
   #{$inPrefix} {
     @each $i in $inList {
       &#{$i} {
-        height: #{$i}px;
-        line-height: #{$i}px;
+        height: #{$i/50}rem;
+        line-height: #{$i/50}rem;
       }
     }
   }
