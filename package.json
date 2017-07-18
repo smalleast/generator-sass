@@ -1,8 +1,8 @@
 {
-  "name": "generators-sass",
+  "name": "sass-generator",
   "version": "1.0.0",
   "description": "Webkit sass generator mixins.",
-  "homepage": "https://github.com/smalleast/generators-sass",
+  "homepage": "https://github.com/smalleast/sass-generator",
   "author": {
     "name": "smalleast",
     "email": "382026180@qq.com"

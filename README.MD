@@ -1,4 +1,4 @@
-#generators-sass
+#sass-generator
 > Webkit sass generator mixins.
 
 ## usage:

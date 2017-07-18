@@ -1,5 +1,5 @@
 
-@import "../dist/webkit-sass-generator";
+@import "../dist/sass-generator";
 //test color-map
 $color-map: (
   0:#000,
@@ -27,7 +27,7 @@ $line-clamp:(1,2,3,4,5);
 @include generator-width-w1($data-src,'.w1__');
 @include generator-width-wp($width-list,'.wp__');
 @include generator-blank($width-list,'.blk__');
-@include generator-font-size($font-list,'.f__');
+@include generator-font-size($font-list,'.f-');
 @include generator-border-radius($border-radius-list,'.bdr__');
 
 //Generate margin:
