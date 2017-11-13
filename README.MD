@@ -53,30 +53,4 @@ $font-list:(10,20,30);
 
 ```
 
-## todos:
-- [x] generator-background-color
-- [x] generator-blank
-- [x] generator-border-color
-- [x] generator-border-radius
-- [x] generator-color
-- [x] generator-font-size
-- [x] generator-width-w1 (width-w1)
-- [x] generator-width-wp (width-wp)
-- [x] generator-margin
-- [x] generator-margin-m
-- [x] generator-margin-mt
-- [x] generator-margin-mr
-- [x] generator-margin-mb
-- [x] generator-margin-ml
-- [x] generator-padding
-- [x] generator-padding-p
-- [x] generator-padding-pt
-- [x] generator-padding-pr
-- [x] generator-padding-pb
-- [x] generator-padding-pl
 
-
-## resources:
-+ http://hugogiraudel.com/2013/08/08/advanced-sass-list-functions/
-+ http://sass-lang.com/documentation/Sass/Script/Functions.html
-+ https://github.com/HugoGiraudel/SassyStrings

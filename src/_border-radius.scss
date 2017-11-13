@@ -3,7 +3,7 @@
   #{$inPrefix} {
     @each $i in $inList{
       &#{$i}{
-        border-radius: #{$i}px;
+        border-radius: #{$i}rem;
       }
     }
   }
