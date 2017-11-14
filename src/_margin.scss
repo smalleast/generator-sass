@@ -26,7 +26,7 @@ $margin-map:(
         &#{$i}{
           &,
           &_>*{
-            #{$mapValue}:#{$i}rem;
+            #{$mapValue}:#{$i/50}rem;
           }
         }
       }
@@ -39,7 +39,7 @@ $margin-map:(
           &_>*{
             //mapValue is a `list`
             @each $mapItem in $mapValue{
-              #{$mapItem}:#{$i}rem;
+              #{$mapItem}:#{$i/50}rem;
             }
           }
         }
